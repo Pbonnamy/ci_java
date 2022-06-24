@@ -20,7 +20,7 @@ public class ItemTest {
     @Test
     public void checkEmptyName() {
         Item item = new Item(
-                "aaaaa",
+                "",
                 LocalDateTime.now(),
                 "aaaaaaaaa"
         );
